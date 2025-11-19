@@ -1,23 +1,49 @@
 import { FaGithub, FaChrome } from "react-icons/fa";
+import screenshot309 from "../images/projects/Screenshot (309).png";
+import screenshot310 from "../images/projects/Screenshot (310).png";
+import screenshot311 from "../images/projects/Screenshot (311).png";
+import figmaLogo from "../svgs/figma-logo.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const ProjectSection = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800 });
+  }, []);
   return (
     <section
-      className="bg-background-dark flex flex-col items-center px-4 lg:px-8 gap-y-12 text-center h-fit py-[27%] md:py-[15%] xl:py-[12%] shadow-lg scroll-mt-[15%] -z-20 text-text"
+      className="bg-background-dark flex flex-col items-center justify-center px-4 lg:px-8 gap-y-12 text-center h-fit py-[10vh] shadow-lg scroll-mt-[12vh] lg:scroll-mt-[15vh] -z-20 text-text"
       id="project-section"
     >
       <div className="flex flex-col gap-y-1 items-center">
-        <h1 className="text-text text-2xl lg:text-3xl font-bold">Projects</h1>
-        <span className="w-4 lg:w-6 h-1 lg:h-1.5 bg-brand rounded-full"></span>
+        <h1
+          className="text-text text-2xl lg:text-3xl font-bold"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          Projects
+        </h1>
+        <span
+          className="w-4 lg:w-6 h-1 lg:h-1.5 bg-brand rounded-full"
+          data-aos="fade-up"
+          data-aos-delay="250"
+        ></span>
       </div>
       <div className="flex flex-col w-full gap-y-6 md:gap-y-0">
         <div className="border-b-2 border-b-gray-400 flex flex-col gap-y-6 py-6 lg:py-14 xl:py-20 md:flex-row md:items-center md:gap-x-6">
           <img
             className="rounded-xl shadow-2xl md:w-1/2"
-            src="./src/assets/images/projects/Screenshot (311).png"
+            src={screenshot311}
             alt="Screenshot of ShareAm project"
+            data-aos="fade-up"
+            data-aos-delay="200"
           />
-          <div className="flex flex-col gap-y-4 py-6 text-left 2xl:gap-10">
+          <div
+            className="flex flex-col gap-y-4 py-6 text-left 2xl:gap-10"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <h2 className="text-text text-xl lg:text-2xl font-semibold">
               ShareAm
             </h2>
@@ -32,32 +58,32 @@ const ProjectSection = () => {
             <div className="flex flex-wrap gap-3">
               <img
                 src="https://img.icons8.com/color/48/html-5--v1.png"
-                alt=""
+                alt="HTML5"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
               <img
                 src="https://img.icons8.com/color/48/css3.png"
-                alt=""
+                alt="CSS3"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
               <img
                 src="https://img.icons8.com/color/48/javascript--v1.png"
-                alt=""
+                alt="JavaScript"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
               <img
                 src="https://img.icons8.com/color/48/nodejs.png"
-                alt=""
+                alt="Node.js"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
               <img
                 src="https://img.icons8.com/color/48/git.png"
-                alt=""
+                alt="Git"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
               <img
-                src="./src/assets/svgs/figma-logo.svg"
-                alt=""
+                src={figmaLogo}
+                alt="Figma"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
             </div>
@@ -76,10 +102,16 @@ const ProjectSection = () => {
         <div className="border-b-2 border-b-gray-400 flex flex-col gap-y-6 py-6 lg:py-14 xl:py-20 md:flex-row md:items-center md:gap-x-6">
           <img
             className="rounded-xl shadow-2xl md:w-1/2 md:h-full"
-            src="./src/assets/images/projects/Screenshot (310).png"
+            src={screenshot310}
             alt="Screenshot of drum pad project"
+            data-aos="fade-up"
+            data-aos-delay="200"
           />
-          <div className="flex flex-col gap-y-4 py-6 text-left 2xl:gap-10">
+          <div
+            className="flex flex-col gap-y-4 py-6 text-left 2xl:gap-10"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <h2 className="text-text text-xl lg:text-2xl font-semibold">
               Drum Pad
             </h2>
@@ -91,17 +123,17 @@ const ProjectSection = () => {
             <div className="flex flex-wrap gap-3">
               <img
                 src="https://img.icons8.com/color/48/html-5--v1.png"
-                alt=""
+                alt="HTML5"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
               <img
                 src="https://img.icons8.com/color/48/css3.png"
-                alt=""
+                alt="CSS3"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
               <img
                 src="https://img.icons8.com/color/48/javascript--v1.png"
-                alt=""
+                alt="JavaScript"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
             </div>
@@ -127,10 +159,16 @@ const ProjectSection = () => {
         <div className="border-b-2 border-b-gray-400 flex flex-col gap-y-6 py-6 lg:py-14 xl:py-20 md:flex-row md:items-center md:gap-x-6">
           <img
             className="rounded-xl shadow-2xl md:w-1/2 md:h-full"
-            src="./src/assets/images/projects/Screenshot (309).png"
+            src={screenshot309}
             alt="Screenshot of palindrome project"
+            data-aos="fade-up"
+            data-aos-delay="200"
           />
-          <div className="flex flex-col gap-y-4 py-6 text-left 2xl:gap-10">
+          <div
+            className="flex flex-col gap-y-4 py-6 text-left 2xl:gap-10"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <h2 className="text-text text-xl lg:text-2xl font-semibold">
               Palindrome Checker
             </h2>
@@ -141,17 +179,17 @@ const ProjectSection = () => {
             <div className="flex flex-wrap gap-x-3">
               <img
                 src="https://img.icons8.com/color/48/html-5--v1.png"
-                alt=""
+                alt="HTML5"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
               <img
                 src="https://img.icons8.com/color/48/css3.png"
-                alt=""
+                alt="CSS3"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
               <img
                 src="https://img.icons8.com/color/48/javascript--v1.png"
-                alt=""
+                alt="JavaScript"
                 className="w-8 h-8 lg:w-10 lg:h-10 2xl:w-12 2xl:h-12"
               />
             </div>

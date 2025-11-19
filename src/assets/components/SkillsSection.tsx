@@ -1,34 +1,41 @@
+import phoneImg from "../images/phone-img.png";
+import laptopImg from "../images/laptop-img.png";
+import electronLogo from "../images/electron-logo.png";
+import tailwindcssLogo from "../images/tailwindcss-logo.png";
+import figmaLogo from "../svgs/figma-logo.svg";
+import clickupLogo from "../images/clickup-logo.png";
+
 const SkillsSection = () => {
   return (
     <>
       <section
         id="skills-section"
-        className="bg-background-dark h-fit py-[25%] md:py-[20%] 2xl:py-[15%] shadow-lg scroll-mt-[15%]"
+        className="bg-background-dark h-fit md:h-screen flex items-center justify-center py-[10vh] shadow-lg scroll-mt-[12vh] lg:scroll-mt-[15vh]"
       >
-        <div className="relative w-[82vw] 2xl:w-[70vw] mx-auto">
+        <div className="relative w-[82vw] mx-auto">
           {/* Phone Image */}
           <img
-            src="./src/assets/images/phone-img.png"
+            src={phoneImg}
             alt="Phone"
             className="block md:hidden w-full drop-shadow-[5px_5px_20px_#a5a5a5]"
           />
           {/*Laptop Image */}
           <img
-            src="./src/assets/images/laptop-img.png"
-            alt=""
-            className="hidden md:block w-full drop-shadow-[5px_5px_20px_#a5a5a5]"
+            src={laptopImg}
+            alt="Laptop"
+            className="hidden md:block w-[80%] mx-auto drop-shadow-[5px_5px_20px_#a5a5a5]"
           />
-          <div className="flex flex-col absolute top-[6.5%] md:top-[8%] left-[11.5%] md:left-[14%]">
+          <div className="flex flex-col absolute top-[6.5%] md:top-[7%] left-[11.5%] md:left-[20%]">
             <h1 className="text-text text-lg lg:text-xl font-bold">
               My Skills
             </h1>
             <span className="w-4 h-1 bg-brand rounded-full"></span>
           </div>
-          <div className="absolute top-[12.5%] md:top-[18%] left-[11.5%] md:left-[13.5%] w-[77%] md:w-[74%] h-[85%] md:h-[71%] overflow-y-auto scroll-smooth">
+          <div className="absolute top-[12.5%] md:top-[18%] left-[11.5%] md:left-[20%] w-[77%] md:w-[60%] h-[84%] md:h-[71%] overflow-y-auto scroll-smooth">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="flex items-center gap-3 lg:gap-6">
                 <img
-                  src="./src/assets/images/electron-logo.png"
+                  src={electronLogo}
                   alt="Electron Icon"
                   className="w-[35px] lg:w-[40px] h-[35px] lg:h-[40px] bg-background rounded-md shadow-lg"
                 />
@@ -60,7 +67,7 @@ const SkillsSection = () => {
               </div>
               <div className="flex items-center gap-3 lg:gap-6">
                 <img
-                  src="./src/assets/images/tailwindcss-logo.png"
+                  src={tailwindcssLogo}
                   alt="Tailwind CSS Icon"
                   className="w-[35px] lg:w-[40px] h-[35px] lg:h-[40px] bg-background rounded-md shadow-lg"
                 />
@@ -136,7 +143,7 @@ const SkillsSection = () => {
               </div>
               <div className="flex items-center gap-3 lg:gap-6">
                 <img
-                  src="./src/assets/svgs/figma-logo.svg"
+                  src={figmaLogo}
                   alt="Figma Icon"
                   className="w-[35px] lg:w-[40px] h-[35px] lg:h-[40px] bg-background rounded-md shadow-lg"
                 />
@@ -167,7 +174,7 @@ const SkillsSection = () => {
               </div>
               <div className="flex items-center gap-3 lg:gap-6">
                 <img
-                  src="./src/assets/images/clickup-logo.png"
+                  src={clickupLogo}
                   alt="ClickUp Icon"
                   className="w-[35px] lg:w-[40px] h-[35px] lg:h-[40px] bg-background rounded-md shadow-lg"
                 />
