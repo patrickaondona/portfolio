@@ -14,7 +14,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="w-full h-[15%] fixed z-10 top-0 bg-white">
+    <header className="w-full h-[calc(100%-85vh)] fixed z-10 top-0 bg-white">
       <nav className="w-full h-full flex justify-center items-center relative shadow-md">
         <div className="w-full flex justify-between px-6">
           <span className="flex flex-wrap gap-1 text-xl lg:text-2xl font-bold">

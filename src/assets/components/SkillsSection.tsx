@@ -3,9 +3,9 @@ const SkillsSection = () => {
     <>
       <section
         id="skills-section"
-        className="bg-background-dark h-fit py-[25%] md:py-[20%] 2xl:py-[15%] shadow-lg scroll-mt-[15%]"
+        className="bg-background-dark h-fit py-[14%] md:py-[7%] shadow-lg scroll-mt-[15vh]"
       >
-        <div className="relative w-[82vw] 2xl:w-[70vw] mx-auto">
+        <div className="relative w-[82vw] xl:w-[70vw] mx-auto">
           {/* Phone Image */}
           <img
             src="./src/assets/images/phone-img.png"

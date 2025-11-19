@@ -3,7 +3,7 @@ const EducationSection = () => {
   return (
     <>
       <section
-        className="flex flex-col gap-y-20 lg:gap-y-32 xl:gap-y-40 items-center justify-center px-2 lg:px-4 py-[27%] md:py-[15%] xl:py-[12%] scroll-mt-[15%] w-full h-fit md:h-screen -z-20"
+        className="flex flex-col gap-y-20 lg:gap-y-32 items-center justify-center px-2 lg:px-4 py-[14%] md:py-[7%] scroll-mt-[15vh] w-full h-fit -z-20"
         id="education-section"
       >
         <div className="flex flex-col gap-y-1 items-center">
