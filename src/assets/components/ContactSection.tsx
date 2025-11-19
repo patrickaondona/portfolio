@@ -4,7 +4,7 @@ const ContactSection = () => {
   return (
     <>
       <section
-        className="flex flex-col gap-y-16 w-full h-fit md:h-screen md:justify-between px-4 pt-[27%] md:pt-[15%] scroll-mt-[15%] -z-20"
+        className="flex flex-col gap-y-16 md:gap-y-12 lg:gap-y-16 w-full h-fit items-center justify-center px-4 pt-[14%] md:pt-[7%] scroll-mt-[15vh] -z-20"
         id="contact-section"
       >
         <div className="flex flex-col items-center gap-20 md:items-center">
@@ -48,7 +48,7 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-        <p className="text-text-light text-base lg:text-lg mb-2">
+        <p className="text-text-light text-base self-start lg:text-lg mb-2">
           © 2025 Deabaver Aondona Patrick
         </p>
       </section>

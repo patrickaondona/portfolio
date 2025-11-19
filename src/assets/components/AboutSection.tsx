@@ -2,7 +2,7 @@ const AboutSection = () => {
   return (
     <>
       <section
-        className="flex flex-col items-center justify-center w-full h-fit md:h-screen py-[25%] px-4 scroll-mt-[15%] gap-y-4 -z-20 md:flex-row lg:px-8 md:gap-x-6 lg:gap-x-10 xl:gap-x-20"
+        className="flex flex-col md:flex-row items-center justify-center w-full h-fit py-[14%] md:py-[7%] px-4 scroll-mt-[15vh] -z-20 lg:px-8 gap-y-6 md:gap-x-6 lg:gap-x-10 xl:gap-x-20"
         id="about-section"
       >
         <img

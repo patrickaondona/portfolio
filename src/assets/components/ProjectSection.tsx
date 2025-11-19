@@ -3,7 +3,7 @@ import { FaGithub, FaChrome } from "react-icons/fa";
 const ProjectSection = () => {
   return (
     <section
-      className="bg-background-dark flex flex-col items-center px-4 lg:px-8 gap-y-12 text-center h-fit py-[27%] md:py-[15%] xl:py-[12%] shadow-lg scroll-mt-[15%] -z-20 text-text"
+      className="bg-background-dark flex flex-col items-center px-4 lg:px-8 gap-y-12 text-center h-fit py-[14%] md:py-[7%] shadow-lg scroll-mt-[15vh] -z-20 text-text"
       id="project-section"
     >
       <div className="flex flex-col gap-y-1 items-center">
