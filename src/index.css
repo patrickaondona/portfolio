@@ -16,3 +16,23 @@ layer(base);
     scroll-behavior: smooth;
   }
 }
+[data-aos="my-custom-fade-up"] {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 3s ease-out forwards;
+}
+
+[data-aos="my-custom-fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-aos="my-custom-fade-down"] {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 3s ease-out forwards;
+}
+
+[data-aos="my-custom-fade-down"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}

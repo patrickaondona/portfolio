@@ -1,5 +1,9 @@
-import { defineConfig } from "vite";
+// vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  // No Tailwind plugin needed; Tailwind works via PostCSS config
-});
+  base: '/portfolio/', // 👈 THIS is the key fix
+  plugins: [react()],
+})
+
