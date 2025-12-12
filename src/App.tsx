@@ -5,6 +5,7 @@ import ProjectSection from "./assets/components/ProjectSection";
 import EducationSection from "./assets/components/EducationSection";
 import SkillsSection from "./assets/components/SkillsSection";
 import ContactSection from "./assets/components/ContactSection";
+import UpButton from "./assets/components/UpButton";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <EducationSection />
       <SkillsSection />
       <ContactSection />
+      <UpButton />
     </>
   );
 }

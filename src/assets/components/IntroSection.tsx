@@ -16,7 +16,7 @@ const IntroSection = () => {
           background:
             "linear-gradient(180deg, #a177b4 -49.22%, #f9f0fe 21.43%)",
         }}
-        className="flex flex-col gap-5 items-center justify-center text-center h-screen pt-[12vh] lg:py-0 px-4 text-text shadow-lg -z-20"
+        className="flex flex-col gap-5 items-center justify-center text-center h-fit md:h-screen mt-[15vh] py-[14%] md:py-[7%] px-4 text-text shadow-lg -z-20"
       >
         <span
           className="bg-brand text-white font-medium px-4 py-2 w-fit text-sm md:text-base rounded-full animate-bounce lg:px-5 lg:py-3"
@@ -25,7 +25,7 @@ const IntroSection = () => {
         >
           Hello 👋
         </span>
-        <div className="flex flex-col items-center gap-y-1.5 md:gap-y-5">
+        <div className="flex flex-col items-center gap-y-5">
           <h1 className="text-2xl lg:text-3xl xl:text-5xl flex flex-wrap justify-center gap-x-1 max-w-[70%] font-bold md:max-w-full">
             <span
               className="text-text"

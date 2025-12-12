@@ -10,7 +10,7 @@ const AboutSection = () => {
   return (
     <>
       <section
-        className="flex flex-col md:flex-row items-center w-full h-fit md:h-screen py-[10vh] px-4 scroll-mt-[12vh] lg:scroll-mt-[15vh] gap-y-4 -z-20 lg:px-8 md:gap-x-6 lg:gap-x-10 xl:gap-x-20"
+        className="flex flex-col md:flex-row items-center w-full h-fit py-[18%] md:py-[7%] px-4 scroll-mt-[15vh] gap-y-8 -z-20 lg:px-8 md:gap-x-6 lg:gap-x-10 xl:gap-x-20"
         id="about-section"
       >
         <img
@@ -19,7 +19,7 @@ const AboutSection = () => {
           src={myPic}
           alt="Deabaver Aondona Patrick's Photo"
         />
-        <div className="flex flex-col w-full text-center max-w-xl gap-3 md:max-w-4xl md:text-left lg:gap-5">
+        <div className="flex flex-col w-full text-center max-w-xl gap-4 md:max-w-4xl md:text-left lg:gap-5">
           <div
             className="flex flex-col gap-y-1 items-center md:items-start"
             data-aos="fade-up"

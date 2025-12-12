@@ -10,7 +10,7 @@ const EducationSection = () => {
   return (
     <>
       <section
-        className="flex flex-col gap-y-20 lg:gap-y-32 xl:gap-y-38 items-center px-2 py-[10vh] lg:px-4 shadow-lg scroll-mt-[12vh] lg:scroll-mt-[15vh] w-full h-fit md:h-screen -z-20"
+        className="flex flex-col gap-y-20 lg:gap-y-32 xl:gap-y-38 items-center px-2 py-[18%] md:py-[7%] lg:px-4 shadow-lg scroll-mt-[15vh] w-full h-fit -z-20"
         id="education-section"
       >
         <div className="flex flex-col gap-y-1 items-center">
