@@ -10,11 +10,11 @@ const AboutSection = () => {
   return (
     <>
       <section
-        className="flex flex-col md:flex-row items-center w-full h-fit py-[18%] md:py-[7%] px-4 scroll-mt-[15vh] gap-y-8 -z-20 lg:px-8 md:gap-x-6 lg:gap-x-10 xl:gap-x-20"
+        className="flex flex-col md:flex-row items-center w-full h-fit py-[18%] md:py-[7%] px-4 scroll-mt-[15vh] gap-y-8 -z-20 lg:px-8 md:gap-x-6 lg:gap-x-10 xl:gap-x-20 dark:bg-background-dark"
         id="about-section"
       >
         <img
-          className="h-60 object-contain shadow-2xl mx-auto md:h-52 lg:h-60 lg:mx-0 xl:h-80"
+          className="h-60 object-contain shadow-2xl dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] mx-auto md:h-52 lg:h-60 lg:mx-0 xl:h-80"
           data-aos="fade-up"
           src={myPic}
           alt="Deabaver Aondona Patrick's Photo"
@@ -25,20 +25,20 @@ const AboutSection = () => {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <h1 className="text-text-light text-xl lg:text-2xl font-medium">
+            <h1 className="text-text-dark dark:text-text-dark text-xl lg:text-2xl font-medium">
               About Me
             </h1>
             <span className="w-4 2xl:w-6 h-1 2xl:h-1.5 bg-brand rounded-full"></span>
           </div>
           <p
-            className="flex flex-wrap justify-center md:justify-normal gap-x-1 text-2xl lg:text-3xl text-text font-semibold"
+            className="flex flex-wrap justify-center md:justify-normal gap-x-1 text-2xl lg:text-3xl text-text dark:text-text-light font-semibold"
             data-aos="fade-up"
             data-aos-delay="200"
           >
             <span>Deabaver</span> Aondona Patrick
           </p>
           <p
-            className="text-text-light text-lg lg:text-xl"
+            className="text-text-dark dark:text-text-dark text-lg lg:text-xl"
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -49,7 +49,7 @@ const AboutSection = () => {
             developer.
           </p>
           <p
-            className="text-text-light text-lg lg:text-xl"
+            className="text-text-dark dark:text-text-dark text-lg lg:text-xl"
             data-aos="fade-up"
             data-aos-delay="400"
           >

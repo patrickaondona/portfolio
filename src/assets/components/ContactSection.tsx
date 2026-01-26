@@ -10,13 +10,13 @@ const ContactSection = () => {
   return (
     <>
       <section
-        className="flex flex-col gap-y-16 w-full h-fit md:h-screen md:justify-between px-4 pt-[10vh] lg:pt-[10vh] shadow-lg scroll-mt-[12vh] lg:scroll-mt-[15vh] -z-20"
+        className="flex flex-col gap-y-16 w-full h-fit md:h-screen md:justify-between px-4 pt-[10vh] lg:pt-[10vh] shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)] scroll-mt-[12vh] lg:scroll-mt-[15vh] -z-20 dark:bg-background-dark"
         id="contact-section"
       >
         <div className="flex flex-col items-center gap-20 md:items-center">
           <div className="flex flex-col gap-y-1 items-center">
             <h1
-              className="text-text text-2xl lg:text-3xl font-bold"
+              className="text-text dark:text-text-light text-2xl lg:text-3xl font-bold"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -29,7 +29,7 @@ const ContactSection = () => {
             ></span>
           </div>
           <p
-            className="text-text-light text-lg lg:text-xl text-center md:max-w-4xl"
+            className="text-text-dark text-lg lg:text-xl text-center md:max-w-4xl"
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -39,7 +39,7 @@ const ContactSection = () => {
           </p>
           <div className="flex flex-col gap-5 md:flex-row">
             <div
-              className="bg-background-dark border border-solid border-brand flex flex-col items-center rounded-[5px] gap-2 px-[6vw] py-[2vh]"
+              className="bg-background dark:bg-background-light border border-solid border-brand flex flex-col items-center rounded-[5px] gap-2 px-[6vw] py-[2vh]"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -50,13 +50,13 @@ const ContactSection = () => {
               <a
                 href="https://wa.link/xgtc4u"
                 aria-label="WhatsApp link"
-                className="text-text text-base lg:text-lg hover:text-brand"
+                className="text-text dark:text-text-light text-base lg:text-lg hover:text-brand dark:hover:text-brand"
               >
                 +234 816 731 6226
               </a>
             </div>
             <div
-              className="bg-background-dark border border-solid border-brand flex flex-col items-center rounded-[5px] gap-2 px-[6vw] py-[2vh]"
+              className="bg-background dark:bg-background-light border border-solid border-brand flex flex-col items-center rounded-[5px] gap-2 px-[6vw] py-[2vh]"
               data-aos="fade-up"
               data-aos-delay="500"
             >
@@ -67,14 +67,14 @@ const ContactSection = () => {
               <a
                 href="mailto: aondopat@gmail.com"
                 aria-label="Email link"
-                className="text-text text-base lg:text-lg hover:text-brand"
+                className="text-text dark:text-text-light text-base lg:text-lg hover:text-brand dark:hover:text-brand"
               >
                 aondopat@gmail.com
               </a>
             </div>
           </div>
         </div>
-        <p className="text-text-light text-base lg:text-lg mb-2">
+        <p className="text-text-dark text-base self-start lg:text-lg mb-2">
           © 2025 Deabaver Aondona Patrick
         </p>
       </section>

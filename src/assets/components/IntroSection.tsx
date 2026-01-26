@@ -11,13 +11,7 @@ import resumePDF from "../docs/Deabaver_Aondona_Patrick_Resume.pdf";
 const IntroSection = () => {
   return (
     <>
-      <section
-        style={{
-          background:
-            "linear-gradient(180deg, #a177b4 -49.22%, #f9f0fe 21.43%)",
-        }}
-        className="flex flex-col gap-5 items-center justify-center text-center h-fit md:h-screen mt-[15vh] py-[14%] md:py-[7%] px-4 text-text shadow-lg -z-20"
-      >
+      <section className="flex flex-col gap-5 items-center justify-center text-center h-fit md:h-screen mt-[15vh] py-[14%] md:py-[7%] px-4 shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)] -z-20 bg-[linear-gradient(180deg,#a177b4_-49.22%,#f9f0fe_21.43%)] dark:bg-[linear-gradient(180deg,#303030_-49.22%,#212121_21.43%)]">
         <span
           className="bg-brand text-white font-medium px-4 py-2 w-fit text-sm md:text-base rounded-full animate-bounce lg:px-5 lg:py-3"
           data-aos="my-custom-fade-up"
@@ -28,7 +22,7 @@ const IntroSection = () => {
         <div className="flex flex-col items-center gap-y-5">
           <h1 className="text-2xl lg:text-3xl xl:text-5xl flex flex-wrap justify-center gap-x-1 max-w-[70%] font-bold md:max-w-full">
             <span
-              className="text-text"
+              className="text-text dark:text-text-light"
               data-aos="my-custom-fade-up"
               data-aos-delay="300"
             >
@@ -43,7 +37,7 @@ const IntroSection = () => {
             </span>
           </h1>
           <p
-            className="text-lg lg:text-2xl max-w-lg text-text md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl"
+            className="text-lg lg:text-2xl max-w-lg text-text dark:text-text-light md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl"
             data-aos="my-custom-fade-up"
             data-aos-delay="700"
           >
@@ -60,7 +54,7 @@ const IntroSection = () => {
                 href="https://www.linkedin.com/in/patrick-aondona-deabaver"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-text text-brand text-3xl lg:text-4xl transition-all hover:-translate-y-3 hover:duration-500"
+                className="hover:text-text dark:hover:text-text-light text-brand text-3xl lg:text-4xl transition-all hover:-translate-y-3 hover:duration-500"
               >
                 <FaLinkedin />
               </a>
@@ -68,7 +62,7 @@ const IntroSection = () => {
                 href="https://www.instagram.com/patrick.aondona?igsh=MWhzcjhxODlleWZrcg%3D%3D&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-text text-brand text-3xl lg:text-4xl transition-all hover:-translate-y-3 hover:duration-500"
+                className="hover:text-text dark:hover:text-text-light text-brand text-3xl lg:text-4xl transition-all hover:-translate-y-3 hover:duration-500"
               >
                 <FaInstagram />
               </a>
@@ -76,7 +70,7 @@ const IntroSection = () => {
                 href="https://github.com/patrickaondona"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-text text-brand text-3xl lg:text-4xl transition-all hover:-translate-y-3 hover:duration-500"
+                className="hover:text-text dark:hover:text-text-light text-brand text-3xl lg:text-4xl transition-all hover:-translate-y-3 hover:duration-500"
               >
                 <FaGithub />
               </a>
@@ -84,7 +78,7 @@ const IntroSection = () => {
                 href="https://wa.link/xgtc4u"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-text text-brand text-3xl lg:text-4xl transition-all hover:-translate-y-3 hover:duration-500"
+                className="hover:text-text dark:hover:text-text-light text-brand text-3xl lg:text-4xl transition-all hover:-translate-y-3 hover:duration-500"
               >
                 <FaWhatsapp />
               </a>
@@ -92,7 +86,7 @@ const IntroSection = () => {
                 href="https://x.com/patrick_aondona"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-text text-brand text-3xl lg:text-4xl transition-all hover:-translate-y-3 hover:duration-500"
+                className="hover:text-text dark:hover:text-text-light text-brand text-3xl lg:text-4xl transition-all hover:-translate-y-3 hover:duration-500"
               >
                 <FaTwitter />
               </a>
@@ -101,7 +95,7 @@ const IntroSection = () => {
               href={resumePDF}
               target="_blank"
               download="Deabaver_Aondona_Patrick_Resume.pdf"
-              className="flex items-center gap-2 bg-white border border-solid border-brand text-brand px-4 py-2 rounded-md text-base lg:text-xl font-bold hover:bg-brand hover:text-white transition-all hover:-translate-y-3 hover:duration-500"
+              className="flex items-center gap-2 bg-white dark:bg-background-dark border border-solid border-brand text-brand px-3 py-1 rounded-md text-base lg:text-xl font-bold hover:bg-brand dark:hover:bg-brand hover:text-white dark:hover:text-brand-blacktext transition-all hover:scale-110 hover:duration-500"
               data-aos="my-custom-fade-up"
               data-aos-delay="1100"
               rel="noopener noreferrer"
