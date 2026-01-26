@@ -10,7 +10,7 @@ const Skill = ({ skill }: SkillProps) => {
       <img
         src={skill.icon}
         alt={`${skill.title} Icon`}
-        className="w-[35px] lg:w-[40px] h-[35px] lg:h-[40px] bg-background rounded-md shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]"
+        className="w-[35px] lg:w-[40px] h-[35px] lg:h-[40px] bg-background rounded-md shadow-lg"
       />
       <div className="flex flex-col">
         <h2 className="text-text text-base lg:text-lg font-bold">
