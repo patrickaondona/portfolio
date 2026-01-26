@@ -10,12 +10,12 @@ const EducationSection = () => {
   return (
     <>
       <section
-        className="flex flex-col gap-y-20 lg:gap-y-32 xl:gap-y-38 items-center px-2 py-[18%] md:py-[7%] lg:px-4 shadow-lg scroll-mt-[15vh] w-full h-fit -z-20"
+        className="flex flex-col gap-y-20 lg:gap-y-32 xl:gap-y-38 items-center px-2 py-[18%] md:py-[7%] lg:px-4 shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)] scroll-mt-[15vh] w-full h-fit -z-20 dark:bg-background-dark"
         id="education-section"
       >
         <div className="flex flex-col gap-y-1 items-center">
           <h1
-            className="text-text text-2xl lg:text-3xl font-bold"
+            className="text-text dark:text-text-light text-2xl lg:text-3xl font-bold"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -33,21 +33,21 @@ const EducationSection = () => {
               <FaGraduationCap size={30} className="text-brand" />
             </span>
             <h2
-              className="text-text-light font-bold text-xl lg:text-2xl"
+              className="text-text-dark font-bold text-xl lg:text-2xl"
               data-aos="fade-up"
               data-aos-delay="400"
             >
               St. Peter's College, Garaku
             </h2>
             <p
-              className="text-text text-lg lg:text-xl"
+              className="text-text dark:text-text-light text-lg lg:text-xl"
               data-aos="fade-up"
               data-aos-delay="500"
             >
               Junior Secondary School Certificate
             </p>
             <p
-              className="text-text text-lg lg:text-xl"
+              className="text-text dark:text-text-light text-lg lg:text-xl"
               data-aos="fade-up"
               data-aos-delay="600"
             >
@@ -55,7 +55,7 @@ const EducationSection = () => {
             </p>
           </div>
           <span
-            className="bg-background-light w-2 h-24 mx-auto rounded-lg md:w-24 md:h-2 md:my-auto lg:h-3 lg:w-28"
+            className="bg-brand-span dark:bg-background-light w-2 h-24 mx-auto rounded-lg md:w-24 md:h-2 md:my-auto lg:h-3 lg:w-28"
             data-aos="fade-up"
             data-aos-delay="300"
           ></span>
@@ -64,21 +64,21 @@ const EducationSection = () => {
               <FaGraduationCap size={30} className="text-brand" />
             </span>
             <h2
-              className="text-text-light font-bold text-xl lg:text-2xl"
+              className="text-text-dark font-bold text-xl lg:text-2xl"
               data-aos="fade-up"
               data-aos-delay="400"
             >
               Government Science And Technical College, Area 3, Garki
             </h2>
             <p
-              className="text-text text-lg lg:text-xl"
+              className="text-text dark:text-text-light text-lg lg:text-xl"
               data-aos="fade-up"
               data-aos-delay="500"
             >
               Senior Secondary School Certificate
             </p>
             <p
-              className="text-text text-lg lg:text-xl"
+              className="text-text dark:text-text-light text-lg lg:text-xl"
               data-aos="fade-up"
               data-aos-delay="600"
             >
@@ -86,7 +86,7 @@ const EducationSection = () => {
             </p>
           </div>
           <span
-            className="bg-background-light w-2 h-24 mx-auto rounded-lg md:w-24 md:h-2 md:my-auto lg:h-3 lg:w-28"
+            className="bg-brand-span dark:bg-background-light w-2 h-24 mx-auto rounded-lg md:w-24 md:h-2 md:my-auto lg:h-3 lg:w-28"
             data-aos="fade-up"
             data-aos-delay="300"
           ></span>
@@ -95,21 +95,21 @@ const EducationSection = () => {
               <FaGraduationCap size={30} className="text-brand" />
             </span>
             <h2
-              className="text-text-light font-bold text-xl lg:text-2xl"
+              className="text-text-dark font-bold text-xl lg:text-2xl"
               data-aos="fade-up"
               data-aos-delay="400"
-            > 
+            >
               Federal University Of Technology, Minna
             </h2>
             <p
-              className="text-text text-lg lg:text-xl"
+              className="text-text dark:text-text-light text-lg lg:text-xl"
               data-aos="fade-up"
               data-aos-delay="500"
             >
               Bachelor's Degree
             </p>
             <p
-              className="text-text text-lg lg:text-xl"
+              className="text-text dark:text-text-light text-lg lg:text-xl"
               data-aos="fade-up"
               data-aos-delay="600"
             >
