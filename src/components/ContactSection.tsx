@@ -10,7 +10,7 @@ const ContactSection = () => {
   return (
     <>
       <section
-        className="flex flex-col gap-y-16 w-full h-fit md:h-screen md:justify-between px-4 pt-[10vh] lg:pt-[10vh] shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)] scroll-mt-[12vh] lg:scroll-mt-[15vh] -z-20 dark:bg-background-dark"
+        className="flex flex-col gap-y-16 w-full h-fit md:h-screen md:justify-between px-4 pt-[10vh] lg:pt-[10vh] shadow-lg dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] scroll-mt-[12vh] lg:scroll-mt-[15vh] -z-20 dark:bg-background-dark"
         id="contact-section"
       >
         <div className="flex flex-col items-center gap-20 md:items-center">
@@ -29,13 +29,13 @@ const ContactSection = () => {
             ></span>
           </div>
           <p
-            className="text-text-dark text-lg lg:text-xl text-center md:max-w-4xl"
+            className="text-text-dark dark:text-text-light text-lg lg:text-xl text-center md:max-w-4xl"
             data-aos="fade-up"
             data-aos-delay="300"
           >
             I'm always open to new job opportunities or collaborating on some
-            amazing new projects. Just send me a text on WhatsApp or Email me
-            and I'll get back to you 💪.
+            amazing new projects. Just send me a text on WhatsApp or email me
+            and I'll get back to you.
           </p>
           <div className="flex flex-col gap-5 md:flex-row">
             <div
@@ -65,7 +65,7 @@ const ContactSection = () => {
                 <p>Email</p>
               </div>
               <a
-                href="mailto: aondopat@gmail.com"
+                href="mailto:aondopat@gmail.com"
                 aria-label="Email link"
                 className="text-text dark:text-text-light text-base lg:text-lg hover:text-brand dark:hover:text-brand"
               >
@@ -74,8 +74,8 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-        <p className="text-text-dark text-base self-start lg:text-lg mb-2">
-          © 2025 Deabaver Aondona Patrick
+        <p className="text-text-dark dark:text-text-light text-base self-start lg:text-lg mb-2">
+          (c) 2025 Deabaver Aondona Patrick
         </p>
       </section>
     </>
@@ -83,3 +83,6 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
+
+

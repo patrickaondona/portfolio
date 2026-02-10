@@ -21,7 +21,7 @@ const UpButton = () => {
     <button
       aria-label="Scroll to top"
       onClick={scrollToTop}
-      className={`fixed z-50 bottom-6 right-6 md:bottom-8 md:right-8 p-3 md:p-4 rounded-full bg-brand text-white dark:text-black shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)] hover:bg-brand-dark transition-transform duration-300 transform ${
+      className={`fixed z-50 bottom-6 right-6 md:bottom-8 md:right-8 p-3 md:p-4 rounded-full bg-brand text-white dark:text-black shadow-lg dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] hover:bg-brand-dark transition-transform duration-300 transform ${
         visible
           ? "translate-y-0 opacity-100"
           : "translate-y-6 opacity-0 pointer-events-none"
@@ -34,3 +34,4 @@ const UpButton = () => {
 };
 
 export default UpButton;
+

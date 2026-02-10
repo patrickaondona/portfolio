@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import myPic from "../images/my-pic.jpg";
+import myPic from "../assets/images/my-pic.jpg";
 
 const AboutSection = () => {
   useEffect(() => {
@@ -25,7 +25,7 @@ const AboutSection = () => {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <h1 className="text-text-dark dark:text-text-dark text-xl lg:text-2xl font-medium">
+            <h1 className="text-text-dark dark:text-text-light text-xl lg:text-2xl font-medium">
               About Me
             </h1>
             <span className="w-4 2xl:w-6 h-1 2xl:h-1.5 bg-brand rounded-full"></span>
@@ -38,7 +38,7 @@ const AboutSection = () => {
             <span>Deabaver</span> Aondona Patrick
           </p>
           <p
-            className="text-text-dark dark:text-text-dark text-lg lg:text-xl"
+            className="text-text-dark dark:text-text-light text-lg lg:text-xl"
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -49,7 +49,7 @@ const AboutSection = () => {
             developer.
           </p>
           <p
-            className="text-text-dark dark:text-text-dark text-lg lg:text-xl"
+            className="text-text-dark dark:text-text-light text-lg lg:text-xl"
             data-aos="fade-up"
             data-aos-delay="400"
           >
@@ -67,3 +67,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+

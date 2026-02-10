@@ -23,7 +23,7 @@ const Project = ({ project }: ProjectProps) => {
         <h2 className="text-text dark:text-text-light text-xl lg:text-2xl font-semibold">
           {project.title}
         </h2>
-        <p className="text-text-dark text-lg lg:text-xl">
+        <p className="text-text-dark dark:text-text-light text-lg lg:text-xl">
           {project.description}
         </p>
         <div className="flex flex-wrap gap-3">
@@ -56,3 +56,4 @@ const Project = ({ project }: ProjectProps) => {
 };
 
 export default Project;
+

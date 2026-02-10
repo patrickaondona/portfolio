@@ -11,7 +11,7 @@ const ProjectSection = () => {
 
   return (
     <section
-      className="bg-background dark:bg-background-light flex flex-col items-center px-4 lg:px-8 gap-y-12 text-center h-fit py-[18%] md:py-[7%] shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)] scroll-mt-[15vh] -z-20 text-text"
+      className="bg-background dark:bg-background-dark flex flex-col items-center px-4 lg:px-8 gap-y-12 text-center h-fit py-[18%] md:py-[7%] shadow-lg dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] scroll-mt-[15vh] -z-20 text-text"
       id="project-section"
     >
       <div className="flex flex-col gap-y-1 items-center">
@@ -38,3 +38,4 @@ const ProjectSection = () => {
 };
 
 export default ProjectSection;
+

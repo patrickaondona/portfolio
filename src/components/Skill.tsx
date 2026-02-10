@@ -6,11 +6,11 @@ interface SkillProps {
 
 const Skill = ({ skill }: SkillProps) => {
   return (
-    <div className="flex items-center gap-3 lg:gap-6">
+    <div className="flex items-center gap-3 pl-2 lg:gap-6">
       <img
         src={skill.icon}
         alt={`${skill.title} Icon`}
-        className="w-[35px] lg:w-[40px] h-[35px] lg:h-[40px] bg-background rounded-md shadow-lg"
+        className="w-[35px] lg:w-[40px] h-[35px] lg:h-[40px] p-1 bg-background rounded-md shadow-lg"
       />
       <div className="flex flex-col">
         <h2 className="text-text text-base lg:text-lg font-bold">
@@ -25,3 +25,4 @@ const Skill = ({ skill }: SkillProps) => {
 };
 
 export default Skill;
+

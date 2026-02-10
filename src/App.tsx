@@ -1,11 +1,11 @@
-import NavBar from "./assets/components/NavBar";
-import IntroSection from "./assets/components/IntroSection";
-import AboutSection from "./assets/components/AboutSection";
-import ProjectSection from "./assets/components/ProjectSection";
-import EducationSection from "./assets/components/EducationSection";
-import SkillsSection from "./assets/components/SkillsSection";
-import ContactSection from "./assets/components/ContactSection";
-import UpButton from "./assets/components/UpButton";
+import NavBar from "./components/NavBar";
+import IntroSection from "./components/IntroSection";
+import AboutSection from "./components/AboutSection";
+import ProjectSection from "./components/ProjectSection";
+import EducationSection from "./components/EducationSection";
+import SkillsSection from "./components/SkillsSection";
+import ContactSection from "./components/ContactSection";
+import UpButton from "./components/UpButton";
 
 function App() {
   return (
@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App;
+

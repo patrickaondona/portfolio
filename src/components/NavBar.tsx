@@ -118,7 +118,7 @@ const Navbar = () => {
               data-aos-delay="600"
             >
               <div className="flex flex-col items-center gap-1">
-                <p className="text-text dark:text-text-light font-semi-bold text-base">
+                <p className="text-text dark:text-text-light font-semibold text-base">
                   Contact for more information
                 </p>
                 <a
@@ -174,3 +174,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

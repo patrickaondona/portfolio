@@ -10,7 +10,7 @@ const EducationSection = () => {
   return (
     <>
       <section
-        className="flex flex-col gap-y-20 lg:gap-y-32 xl:gap-y-38 items-center px-2 py-[18%] md:py-[7%] lg:px-4 shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)] scroll-mt-[15vh] w-full h-fit -z-20 dark:bg-background-dark"
+        className="flex flex-col gap-y-20 lg:gap-y-32 xl:gap-y-38 items-center px-2 py-[18%] md:py-[7%] lg:px-4 shadow-lg dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] scroll-mt-[15vh] w-full h-fit -z-20 dark:bg-background-dark"
         id="education-section"
       >
         <div className="flex flex-col gap-y-1 items-center">
@@ -33,7 +33,7 @@ const EducationSection = () => {
               <FaGraduationCap size={30} className="text-brand" />
             </span>
             <h2
-              className="text-text-dark font-bold text-xl lg:text-2xl"
+              className="text-text-dark dark:text-text-light font-bold text-xl lg:text-2xl"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -64,7 +64,7 @@ const EducationSection = () => {
               <FaGraduationCap size={30} className="text-brand" />
             </span>
             <h2
-              className="text-text-dark font-bold text-xl lg:text-2xl"
+              className="text-text-dark dark:text-text-light font-bold text-xl lg:text-2xl"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -95,7 +95,7 @@ const EducationSection = () => {
               <FaGraduationCap size={30} className="text-brand" />
             </span>
             <h2
-              className="text-text-dark font-bold text-xl lg:text-2xl"
+              className="text-text-dark dark:text-text-light font-bold text-xl lg:text-2xl"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -123,3 +123,4 @@ const EducationSection = () => {
 };
 
 export default EducationSection;
+

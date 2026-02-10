@@ -1,5 +1,5 @@
-import phoneImg from "../images/phone-img.png";
-import laptopImg from "../images/laptop-img.png";
+import phoneImg from "../assets/images/phone-img.png";
+import laptopImg from "../assets/images/laptop-img.png";
 import Skill from "./Skill";
 import { skills } from "../data/skills";
 
@@ -8,7 +8,7 @@ const SkillsSection = () => {
     <>
       <section
         id="skills-section"
-        className="bg-background dark:bg-background-light h-fit py-[18%] md:py-[12%] lg:py-[10%] shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)] scroll-mt-0"
+        className="bg-background dark:bg-background-dark h-fit py-[18%] md:py-[12%] lg:py-[10%] shadow-lg dark:shadow-[0_20px_50px_rgba(0,0,0,0.8)] scroll-mt-0"
       >
         <div className="relative w-[90%] xl:w-[70vw] mx-auto">
           {/* Phone Image */}
@@ -44,3 +44,4 @@ const SkillsSection = () => {
 };
 
 export default SkillsSection;
+
