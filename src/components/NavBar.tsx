@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <header className="w-full h-[calc(100%-85vh)] fixed z-10 top-0 bg-white dark:bg-background-dark">
       <nav className="w-full h-full flex justify-center items-center relative shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]">
-        <div className="w-full flex justify-between px-6">
+        <div className="w-full flex justify-between px-2 md:px-6">
           <span className="flex flex-wrap gap-1 text-xl lg:text-2xl font-bold">
             <p className="text-text dark:text-text-light">Deabaver</p>
             <p className="text-brand">Aondona Patrick</p>

@@ -46,7 +46,7 @@ const IntroSection = () => {
             Frontend Developer with a passion for creating responsive,
             user-friendly websites and web applications.
           </p>
-          <div className="flex flex-col gap-y-4 items-center md:gap-y-6">
+          <div className="flex flex-col gap-y-6 items-center md:gap-y-8">
             <div
               className="flex gap-x-3 md:gap-5"
               data-aos="my-custom-fade-up"
