@@ -17,45 +17,51 @@ const Navbar = () => {
   return (
     <header className="w-full h-[calc(100%-85vh)] fixed z-10 top-0 bg-white dark:bg-background-dark">
       <nav className="w-full h-full flex justify-center items-center relative shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]">
-        <div className="w-full flex justify-between px-2 md:px-6">
-          <span className="flex flex-wrap gap-1 text-xl lg:text-2xl font-bold">
-            <p className="text-text dark:text-text-light">Deabaver</p>
-            <p className="text-brand">Aondona Patrick</p>
-          </span>
+        <div className="w-full flex justify-between lg:justify-normal px-3 md:px-6">
+          <div className="w-full flex justify-between">
+            <span className="flex flex-wrap gap-1 text-xl lg:text-2xl font-bold">
+              <p className="text-text dark:text-text-light">Deabaver</p>
+              <p className="text-brand">Aondona Patrick</p>
+            </span>
 
-          {/* Desktop Menu */}
-          <div className="hidden lg:flex lg:gap-4 lg:items-center">
-            <ul className="font-bold gap-10 hidden lg:flex text-base lg:text-lg lg:gap-8">
-              <li className="text-text dark:text-text-light hover:text-brand dark:hover:text-brand hover:-translate-y-1 hover:transition-all hover:duration-500">
-                <a href="#about-section" className="scroll-smooth">
-                  About
-                </a>
-              </li>
-              <li className="text-text dark:text-text-light hover:text-brand dark:hover:text-brand hover:-translate-y-1 hover:transition-all hover:duration-500">
-                <a href="#project-section" className="scroll-smooth">
-                  Projects
-                </a>
-              </li>
-              <li className="text-text dark:text-text-light hover:text-brand dark:hover:text-brand hover:-translate-y-1 hover:transition-all hover:duration-500">
-                <a href="#education-section" className="scroll-smooth">
-                  Education
-                </a>
-              </li>
-              <li className="text-text dark:text-text-light hover:text-brand dark:hover:text-brand hover:-translate-y-1 hover:transition-all hover:duration-500">
-                <a href="#skills-section" className="scroll-smooth">
-                  Skills
-                </a>
-              </li>
-              <li className="text-text dark:text-text-light hover:text-brand dark:hover:text-brand hover:-translate-y-1 hover:transition-all hover:duration-500">
-                <a href="#contact-section" className="scroll-smooth">
-                  Contact
-                </a>
-              </li>
-            </ul>
-            <DarkModeToggle />
+            {/* Desktop Menu */}
+            <div className="hidden lg:flex lg:gap-4 lg:justify-between lg:items-center">
+              <ul className="font-bold gap-10 hidden lg:flex text-base lg:text-lg lg:gap-8">
+                <li className="text-text dark:text-text-light hover:text-brand dark:hover:text-brand hover:-translate-y-1 hover:transition-all hover:duration-500">
+                  <a href="#about-section" className="scroll-smooth">
+                    About
+                  </a>
+                </li>
+                <li className="text-text dark:text-text-light hover:text-brand dark:hover:text-brand hover:-translate-y-1 hover:transition-all hover:duration-500">
+                  <a href="#project-section" className="scroll-smooth">
+                    Projects
+                  </a>
+                </li>
+                <li className="text-text dark:text-text-light hover:text-brand dark:hover:text-brand hover:-translate-y-1 hover:transition-all hover:duration-500">
+                  <a href="#education-section" className="scroll-smooth">
+                    Education
+                  </a>
+                </li>
+                <li className="text-text dark:text-text-light hover:text-brand dark:hover:text-brand hover:-translate-y-1 hover:transition-all hover:duration-500">
+                  <a href="#skills-section" className="scroll-smooth">
+                    Skills
+                  </a>
+                </li>
+                <li className="text-text dark:text-text-light hover:text-brand dark:hover:text-brand hover:-translate-y-1 hover:transition-all hover:duration-500">
+                  <a href="#contact-section" className="scroll-smooth">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="hidden lg:block">
+              <DarkModeToggle />
+            </div>
           </div>
+
           {/* Mobile Menu Icon */}
-          <div className="lg:hidden flex items-center justify-center gap-4 dark:text-text-light">
+          <div className="lg:hidden flex items-center justify-center gap-3 dark:text-text-light">
             <DarkModeToggle />
             <button onClick={toggleMenu}>
               {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
@@ -174,4 +180,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

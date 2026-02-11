@@ -11,8 +11,7 @@ export default function DarkModeToggle() {
       className="
         relative h-7 w-20 rounded-full md:h-8 md:w-24
         bg-background dark:bg-brand shadow-lg dark:shadow-[0_10px_30px_rgba(0,0,0,0.7)]
-        transition-colors duration-300 grid grid-cols-3 place-items-center
-      "
+        transition-colors duration-300 grid grid-cols-3 place-items-center"
     >
       <button
         type="button"
